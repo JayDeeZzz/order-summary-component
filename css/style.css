@@ -40,11 +40,16 @@ p, a{
      color: hsl(224, 23%, 55%);
      text-decoration: none;
 }
+p{
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
  #main{
      display: flex;
      justify-content: center;
      align-items: center;
      height: 100%;
+}
 }
  .attribution {
      font-size: 11px;
