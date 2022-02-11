@@ -12,14 +12,13 @@
  button{
      background: hsl(245, 75%, 52%);
      width: 100%;
-     padding: 20px;
      border-radius: 15px;
      color: #fff;
      cursor: pointer;
      font-family: 'Red Hat Display', sans-serif;
      font-size: 1.1em;
      padding: 15px;
-     margin-bottom: 30px;
+     margin-bottom: 20px;
      border: 0;
 }
  button:hover{
@@ -30,6 +29,16 @@
 }
  h1{
      font-weight: 900;
+}
+a{
+     font-weight: 900;
+}
+ a:hover{
+     color: hsl(223, 47%, 23%);
+}
+p, a{
+     color: hsl(224, 23%, 55%);
+     text-decoration: none;
 }
  #main{
      display: flex;
@@ -80,25 +89,15 @@
      font-weight: 700;
      margin:0 auto;
 }
-}
  .change a{
-     color: hsl(245, 75%, 52%);
-     text-decoration: underline;
-}
- a{
-     font-weight: 900;
-}
- a:hover{
-     color: hsl(223, 47%, 23%);
+     color: hsl(245, 75%, 52%)!important;
+     text-decoration: underline!important;
 }
  .change a:hover{
      opacity: 0.7;
-     text-decoration:none;
+     text-decoration:none!important;
 }
- p, a{
-     color: hsl(224, 23%, 55%);
-     text-decoration: none;
-}
+ 
  @media only screen and (max-width: 390px) {
      .container{
          margin:20px;
