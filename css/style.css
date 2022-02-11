@@ -33,7 +33,10 @@
     p, a{ color: hsl(224, 23%, 55%); text-decoration: none;  }
     @media only screen and (max-width: 390px) {
  .container{ margin:20px; }
+ body{background: url('images/pattern-background-mobile.svg') no-repeat;}
     .container, .banner{ max-width: 100%!important;
  }
-  }.content{ padding: 10px 20px 20px 20px; }
+ }
+.content{ padding: 10px 20px 20px 20px; }
       .price img{ margin-right: 15px; }
+    }
