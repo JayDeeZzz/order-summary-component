@@ -69,7 +69,10 @@
  .ap,.change{
      width: 50%;
 }
-.ap{ text-align: :left; padding-left: 10px; }
+.ap{ 
+  text-align: :left; 
+  padding-left: 10px; 
+}
  .change{
      line-height: 40px;
      text-align: right;
