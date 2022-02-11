@@ -4,7 +4,7 @@
  body{
      font-family: 'Red Hat Display', sans-serif;
      margin: 0;
-     background: url('./images/pattern-background-desktop.svg') no-repeat;
+     background: url('../images/pattern-background-desktop.svg') repeat-x;
      background-color: hsl(225, 100%, 94%);
      font-size: 16px;
      color: hsl(224, 23%, 55%);
@@ -78,10 +78,8 @@ p, a{
 }
  .ap,.change{
      width: 50%;
-}
-.ap{ 
-  text-align: :left; 
-  padding-left: 10px; 
+     text-align: left;
+     padding-left: 10px;
 }
  .change{
      line-height: 40px;
